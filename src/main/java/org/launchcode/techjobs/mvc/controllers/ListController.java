@@ -31,7 +31,8 @@ public class ListController {
 
 //
 //        if (column.equals("all")){
-        tableChoices.put("all", "All Jobs");
+        // added link for "View All" in View Jobs by Category
+        tableChoices.put("all", "View All");
         tableChoices.put("employer", JobData.getAllEmployers());
         tableChoices.put("location", JobData.getAllLocations());
         tableChoices.put("positionType", JobData.getAllPositionTypes());
